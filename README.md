@@ -1,12 +1,12 @@
 # Parse Sample Client + Server App
 
 ### Prerequisites
-* MongoDB (v4.2 as of writing)
-* Node (v10.20.1 as of writing)
+*  <a href="https://www.mongodb.com/download-center/community">MongoDB</a> (v4.2 as of writing)
+* <a href="https://nodejs.org/en/download/">Node</a> (v10.20.1 as of writing)
 
 
 ## Server
-<p align="center">
+<p align="left">
     <img alt="Parse Server" src="https://github.com/parse-community/parse-server/raw/master/.github/parse-server-logo.png" width="500">
   </a>
 </p>
@@ -16,14 +16,14 @@ Read more <a href="https://github.com/parse-community/parse-server">Here</a>
 
 * ### Prerequisite
     * MongoDB should be installed and running
-    * Createa db `test` (this can be changed in `config.json`)
+    * Create db `test` (this can be changed in `config.json`)
 
 * ### How to run
     * from root directory (server)
     * `npm install`
     * `npm run server`
     * Upon successful start you will see <br> `[9346] parse-server running on http://localhost:1338/parse`
-    * NOTE: The above is your API endpoint for all backend operations
+    * NOTE: The above is your API endpoint for all backend operations. Parse also supports a REST API (alternate to JS SDK) <a href="https://docs.parseplatform.org/rest/guide/"> Read more </a>
 
 
 
