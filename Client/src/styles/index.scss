@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf)
+}
+
+@import 'variables';
+
+html {
+  font-size: $root-font-size;
+  font-family: $font-family;
+  max-width: $page-width;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: $paragraph-font-size;
+}
+
+.hide{
+  display: none !important;
+}
+
+.show{
+  display: block;
+}
+
+#blog{
+  display: none;
+  max-width: 500px;
+  margin: 0 auto;
+  input{
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+  }
+  textarea{
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    height: 200px;
+  }
+  button{
+    background-color: lightcoral;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    width: 100px; 
+  }
+}
+
+#recent-posts{
+  li{
+    list-style: none;
+    display: flex;
+  }
+}

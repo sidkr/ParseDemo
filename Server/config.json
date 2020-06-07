@@ -1,0 +1,7 @@
+{
+  "appId": "appID",
+  "masterKey": "masterKey",
+  "databaseURI": "mongodb://localhost:27017/test",
+  "port": 1338,
+  "serverURL": "http://localhost:1338/parse"
+  }
