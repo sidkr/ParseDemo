@@ -6,7 +6,10 @@
 
 
 ## Server
-<hr>
+<p align="center">
+    <img alt="Parse Server" src="https://github.com/parse-community/parse-server/raw/master/.github/parse-server-logo.png" width="500">
+  </a>
+</p>
 Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js.
 
 Read more <a href="https://github.com/parse-community/parse-server">Here</a>
@@ -25,9 +28,8 @@ Read more <a href="https://github.com/parse-community/parse-server">Here</a>
 
 
 ## Client
-<hr>
 
-Client application is built using Backbone.js for router support and Jquery. This can easily be changed to a nodejs Express application or any other framework for that matter.
+Client application is built with Backbone.js (router support ), jQuery and Webpack for build tool. This can easily be changed to a nodejs Express application or any other framework for that matter.
 
 The Parse Javascript SDK is used for server communication. All CRUD methods are supported but this demo only focusses on Save and Get.
 
